@@ -1,0 +1,9 @@
+{% autoescape off %}
+Hi {{ user.username }},
+
+The video you've asked for is ready!
+
+Please click this link to view or download
+http://{{ domain }}{{ video_url }}
+
+{% endautoescape %}

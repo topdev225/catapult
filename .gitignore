@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+fantom/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*~
+*.swp
+
+db.sqlite3
+uploads/
+test/
+.idea/
+.env
+venv
+
+
